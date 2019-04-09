@@ -4,20 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Variables</title>
+  <title>If Statements</title>
 </head>
 <body>
+  <?php
   
-<?php 
+  if(3>10){
 
-$name = "Data";
-$number = 7;
+    echo "Three is less than ten";
+  } elseif(4<5){
+   
+    echo "Four is indeed less than five.";
 
-echo "<h1>$name</h1>";
-echo $number;
-
-// To concatinate in PHP use the . "."
-?>
+  }
+    else{
+    echo "it is not";
+  }
   
+
+  ?>
 </body>
 </html>

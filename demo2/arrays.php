@@ -4,20 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Variables</title>
+  <title>Arrays</title>
 </head>
 <body>
   
-<?php 
 
-$name = "Data";
-$number = 7;
+  <?php
 
-echo "<h1>$name</h1>";
-echo $number;
+  $numListOld = array(11,22,33,44,55,66,77,"<h1>StringWithHTMLtag</h1>");
 
-// To concatinate in PHP use the . "."
-?>
-  
+  $numList = [2,3, 22, 88];
+
+  echo $numList[0];
+  echo "<br>";
+
+  echo $numListOld[7];
+
+  print_r($numListOld);
+  ?>
 </body>
 </html>

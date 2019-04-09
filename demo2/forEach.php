@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Variables</title>
+  <title>For Each Loop</title>
 </head>
 <body>
+  <?php
   
-<?php 
+  $numbers = array(345,543,777,932,888);
 
-$name = "Data";
-$number = 7;
+  foreach($numbers as $number){
+    $number ++;
+    echo $number . "<br>";
 
-echo "<h1>$name</h1>";
-echo $number;
-
-// To concatinate in PHP use the . "."
-?>
+  };
   
+  
+  ?>
 </body>
 </html>

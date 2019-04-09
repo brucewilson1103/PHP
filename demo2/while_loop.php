@@ -4,19 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Variables</title>
+  <title>While Loop</title>
 </head>
 <body>
-  
-<?php 
 
-$name = "Data";
-$number = 7;
+<?php
 
-echo "<h1>$name</h1>";
-echo $number;
+$counter =0;
 
-// To concatinate in PHP use the . "."
+
+
+while($counter < 10){
+
+echo "All around the Mulberry Bush..";
+// $counter= $counter + 1;
+$counter++;
+echo "<br>";
+echo $counter;
+}
+
+
 ?>
   
 </body>
